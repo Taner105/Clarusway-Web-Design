@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(54, 51, 51); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:5px solid purple;
+
+}
+#navbar-left{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.contents-right{
+    margin-right: 15px;
+}
+.contents-right a{
+    padding: 10px;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 12px;
+}
+.contents-right a:hover{
+    color: purple;
+}
+#about:link{
+    color: purple;
+}
+/* #home:link{
+    color: purple;
+} */
+.middle{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(54, 51, 51); 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+}
+.middle-left p{
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.middle-right{
+    padding-right: 15px;
+}
+#email{
+    padding: 5px 20px 5px 0;
+}
+#subscribe{
+    padding:5px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    
+}
+.main1{
+    /* border: 1px solid red; */
+    width: 800px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: gray;
+    
+}
+.main{
+    margin: 25px;
+    /* display: flex; */
+    /* border: 3px solid green; */
+    
+}
+.left{
+    float: left;
+}
+#text{
+    padding: 15px 0 15px 15px;
+    font-size: 13px;
+}
+#pricing{
+    font-size: 13px;
+    padding-left: 15px;
+    
+}
+.main1 h3{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.main2{
+    /* border: 1px solid red; */
+    width: 800px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: gray;
+    
+}
+/* .main{
+    margin: 25px;
+} */
+#text1{
+    padding: 15px 0 15px 15px;
+    font-size: 13px;
+}
+#pricing1{
+    font-size: 13px;
+    padding-left: 15px;
+    
+}
+.main2 h3{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+.main3{
+    /* border: 1px solid red; */
+    width: 800px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: gray;
+    
+}
+/* .main{
+    margin: 25px;
+} */
+#text2{
+    padding: 15px 0 15px 15px;
+    font-size: 13px;
+}
+#pricing2{
+    font-size: 13px;
+    padding-left: 15px;
+    
+}
+.main3 h3{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.inputs{
+    border: 1px solid red;
+    width: 350px;
+    height: 250px;
+    background-color:rgb(54, 51, 51); 
+    color: white;
+    font-size: 13px;
+    float: right;
+}
